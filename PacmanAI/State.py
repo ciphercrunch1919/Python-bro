@@ -160,5 +160,5 @@ class State:
          state._update()
          finalDistribution.append( (state,prob) )
     
-       ghostMemory[self] = finalDistribution
-       return finalDistribution
+      ghostMemory[self] = finalDistribution
+      return finalDistribution
